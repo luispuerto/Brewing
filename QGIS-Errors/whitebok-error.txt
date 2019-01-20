@@ -1,0 +1,52 @@
+Couldn't load plugin 'whitebox' 
+
+SyntaxError: invalid syntax 
+Traceback (most recent call last):
+  File "/usr/local/opt/qgis/QGIS.app/Contents/MacOS/../Resources/python/qgis/utils.py", line 309, in loadPlugin
+    __import__(packageName)
+  File "/usr/local/opt/qgis/QGIS.app/Contents/MacOS/../Resources/python/qgis/utils.py", line 672, in _import
+    mod = _builtin_import(name, globals, locals, fromlist, level)
+  File "/usr/local/opt/qgis/QGIS.app/Contents/MacOS/../Resources/python/plugins/whitebox/__init__.py", line 28, in 
+    from whitebox.whiteboxProviderPlugin import WhiteboxProviderPlugin
+  File "/usr/local/opt/qgis/QGIS.app/Contents/MacOS/../Resources/python/qgis/utils.py", line 672, in _import
+    mod = _builtin_import(name, globals, locals, fromlist, level)
+  File "/usr/local/opt/qgis/QGIS.app/Contents/MacOS/../Resources/python/plugins/whitebox/whiteboxProviderPlugin.py", line 30, in 
+    from whitebox.whiteboxProvider import WhiteboxProvider
+  File "/usr/local/opt/qgis/QGIS.app/Contents/MacOS/../Resources/python/qgis/utils.py", line 672, in _import
+    mod = _builtin_import(name, globals, locals, fromlist, level)
+  File "/usr/local/opt/qgis/QGIS.app/Contents/MacOS/../Resources/python/plugins/whitebox/whiteboxProvider.py", line 37, in 
+    from whitebox.whiteboxAlgorithm import WhiteboxAlgorithm
+  File "/usr/local/opt/qgis/QGIS.app/Contents/MacOS/../Resources/python/qgis/utils.py", line 672, in _import
+    mod = _builtin_import(name, globals, locals, fromlist, level)
+  File "/usr/local/opt/qgis/QGIS.app/Contents/MacOS/../Resources/python/plugins/whitebox/whiteboxAlgorithm.py", line 49, in 
+    from whitebox import whiteboxUtils
+  File "/usr/local/opt/qgis/QGIS.app/Contents/MacOS/../Resources/python/qgis/utils.py", line 672, in _import
+    mod = _builtin_import(name, globals, locals, fromlist, level)
+  File "/usr/local/opt/qgis/QGIS.app/Contents/MacOS/../Resources/python/plugins/whitebox/whiteboxUtils.py", line 45
+    filePath = /usr/local/opt/whitebox-tools/bin/whitebox_tools
+               ^
+SyntaxError: invalid syntax
+
+
+Python version: 3.7.2 (default, Jan 12 2019, 20:39:48) [Clang 10.0.0 (clang-1000.11.45.5)] 
+QGIS version: 3.4.4-Madeira Madeira, 20a1d7ff 
+
+Python Path:
+/usr/local/opt/qgis/QGIS.app/Contents/MacOS/../Resources/python/plugins/lastools
+/Users/lpuerto/Library/Application Support/QGIS/QGIS3/profiles/default/python/plugins/gml_application_schema_toolbox/extlibs
+/usr/local/opt/qgis/QGIS.app/Contents/MacOS/../Resources/python
+/Users/lpuerto/Library/Application Support/QGIS/QGIS3/profiles/default/python
+/Users/lpuerto/Library/Application Support/QGIS/QGIS3/profiles/default/python/plugins
+/usr/local/opt/qgis/QGIS.app/Contents/MacOS/../Resources/python/plugins
+/usr/local/opt/gdal2-python/lib/python3.7/site-packages
+/usr/local/opt/qgis/QGIS.app/Contents/Resources/python
+/usr/local/opt/qgis/lib/python3.7/site-packages
+/usr/local/opt/lib/python3.7/site-packages
+/usr/local/Frameworks/Python.framework/Versions/3.7/lib/python37.zip
+/usr/local/Frameworks/Python.framework/Versions/3.7/lib/python3.7
+/usr/local/Frameworks/Python.framework/Versions/3.7/lib/python3.7/lib-dynload
+/usr/local/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages
+/usr/local/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/geos
+/usr/local/Cellar/matplotlib/2.2.3/libexec/lib/python3.7/site-packages
+/usr/local/Cellar/numpy/1.16.0/libexec/nose/lib/python3.7/site-packages
+/Users/lpuerto/Library/Application Support/QGIS/QGIS3/profiles/default/python
