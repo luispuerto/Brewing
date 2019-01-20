@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+if [[ $# -ne 2 ]]; then
+    echo "mkalias: specify 'from' and 'to' paths" >&2
+    exit 1
+fi
+
+from=$1
+todir=$2
+toname=$2
+if [[ -f "$from" ]]; then
+    type="file"
+elif [[ -d "$from" ]]; then
+    type="folder"
+else
+    echo "mkalias: invalid path or unsupported type: '$from'" >&2
+    exit 1
+fi
+
+osascript <<EOF
+tell application "Finder"
+   make new alias to $type (posix file "$from") at (posix file "$todir")
+   set name of result to "$toname"
+end tell
+EOF
