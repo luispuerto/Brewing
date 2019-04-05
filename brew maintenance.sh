@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
 # In this script we are going to update, upgrade, pu
 #
 

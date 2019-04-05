@@ -1,0 +1,58 @@
+# White-list comments
+- `automake`: Useful when compiling. 
+- `bash-completion`: 
+- `bash`: Last version of macOS native terminal / shell. 
+- `bfg`: This a plugin for git. 
+- `brew-cask-completion`: This is a plugin for cask. 
+- `ccache`: Useful when compiling. 
+- `cmake`: Useful when compiling. 
+- `coreutils`: Add some useful commands to macOS from linux. 
+- `doxygen`: To create documentation in some coding languages. 
+- `emojify`: To show emojis in the shell. 
+- `ext4fuse`: Read-only implementation of ext4 for FUSE. 
+- `ffmpeg2theora`: Convert video files to Ogg Theora format
+- `ffmpeg`: Play, record, convert, and stream audio and video. 
+- `fontforge`: Used to create fonts. 
+- `ghostscript`: Interpreter for PostScript and PDF.
+- `gist`: To create gist and upload to github. 
+- `git-flow-avh`: Related to git. 
+- `git-lfs`: Related to git. 
+- `git-sizer`: Related to git. 
+- `git`: Version control software. 
+- `github-markdown-toc`: To create TOCs in github readmes. 
+- `gnupg`: GNU Pretty Good Privacy (PGP) package
+- `go`: Open source programming language to build simple/reliable/efficient software
+- `gpg-agent`: Related to gpg. I'll keep just in case. 
+- `htop`: Improved top (interactive process viewer). 
+- `hugo`: Similar to jekyll. 
+- `llvm`: Next-gen compiler infrastructure
+- `mas`: Command line mac app store. 
+- `megatools`: Command line tools for mega.nz. 
+- `mysql`: small database manager. 
+- `nano`: Small text editor on terminal. 
+- `ninja`: Necessary for compiling. 
+- `node`: I need this, don't uninstall. 
+- `openvpn`: Simple VPN program. 
+- `osgeo/osgeo4mac/osgeo-gdal`: osgeo version of gdal for qgis. 
+- `osgeo/osgeo4mac/osgeo-qgis`: gis software. 
+- `pandoc-citeproc`: To create citations. 
+- `pinentry-mac`: Pinentry for GPG on Mac. 
+- `rsync`: To sync files across folder, machines, servers, etc. 
+- `ruby`: Last version of this coding language. 
+- `sethrfore/r-srf/cairo`: This is needed by the R I'm using. 
+- `sethrfore/r-srf/r`: This is the R I'm using.
+- `shellcheck`: ShellCheck is a GPLv3 tool that gives warnings and suggestions for bash/sh shell scripts. 
+- `speedtest-cli`: The measure the Internet download speed. 
+- `tmux`: You can have more than one terminal and have then in the background. Even if you close shell. 
+- `tor`: Anonymizing overlay network for TCP.
+- `trash`: to send stuff to trash instead of `rm` it. 
+- `vim`: Simple text editor in terminal. 
+- `vitorgalvao/tiny-scripts/cask-repair`: To fix and update casks. 
+- `wget`: download things from Internet. 
+- `wine`: To emulate windows.  
+- `youtube-dl`: To download videos form YouTube. 
+- `zsh-autosuggestions`: Related to zsh. 
+- `zsh-completions`: Related to zsh. 
+- `zsh-history-substring-search`: Related to zsh. 
+- `zsh-syntax-highlighting`: Related to zsh. 
+- `zsh`: The terminal I'm using. 
