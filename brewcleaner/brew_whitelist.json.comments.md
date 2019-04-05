@@ -7,6 +7,7 @@
 - `ccache`: Useful when compiling. 
 - `cmake`: Useful when compiling. 
 - `coreutils`: Add some useful commands to macOS from linux. 
+- `curl`: to download things from internet. 
 - `doxygen`: To create documentation in some coding languages. 
 - `emojify`: To show emojis in the shell. 
 - `ext4fuse`: Read-only implementation of ext4 for FUSE. 

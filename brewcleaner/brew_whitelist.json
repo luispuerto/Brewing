@@ -7,6 +7,7 @@
   "ccache": true, 
   "cmake": true,
   "coreutils": true,
+  "curl": true, 
   "doxygen": true,
   "emojify": true,
   "ext4fuse": true, 
