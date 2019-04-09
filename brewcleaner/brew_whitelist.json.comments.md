@@ -47,6 +47,7 @@
 - `tmux`: You can have more than one terminal and have then in the background. Even if you close shell. 
 - `tor`: Anonymizing overlay network for TCP.
 - `trash`: to send stuff to trash instead of `rm` it. 
+- `udunits`: necesary for the sf package in R. 
 - `vim`: Simple text editor in terminal. 
 - `vitorgalvao/tiny-scripts/cask-repair`: To fix and update casks. 
 - `wget`: download things from Internet. 

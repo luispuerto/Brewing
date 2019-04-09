@@ -47,6 +47,7 @@
   "tmux": true, 
   "tor": true, 
   "trash": true, 
+  "udunits": true, 
   "vim": true, 
   "vitorgalvao/tiny-scripts/cask-repair": true,
   "wget": true, 
