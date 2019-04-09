@@ -25,6 +25,7 @@
 - `go`: Open source programming language to build simple/reliable/efficient software
 - `gpg-agent`: Related to gpg. I'll keep just in case. 
 - `htop`: Improved top (interactive process viewer). 
+- `hub`: github command line interface. 
 - `hugo`: Similar to jekyll. 
 - `llvm`: Next-gen compiler infrastructure
 - `mas`: Command line mac app store. 

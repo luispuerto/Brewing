@@ -25,6 +25,7 @@
   "go": true, 
   "gpg-agent": true, 
   "htop": true, 
+  "hub": true, 
   "hugo": true, 
   "llvm": true, 
   "mas": true, 
